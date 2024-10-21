@@ -125,7 +125,7 @@ button.signup-hero{
     gap: 16px;
   }
 
-  .quote{
+.quote{
     background-color: #E5E7EB;
     display: flex;
     justify-items: center;
@@ -137,17 +137,34 @@ button.signup-hero{
     padding-bottom: 150px;
   }
 
-  .text-quote{
+.text-quote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
   }
 
-  .text-author{
+.text-author{
     font-size: 30px;
     font-weight: 900;
     float: right;
     padding-right: 60px;
     text-align: right;
   }
+
+.signup{
+    padding: 100px 350px 100px 350px;
+    border-radius: 50%;
+}
+
+.signup-container{
+    background-color: #3882F6;
+    
+  }
+
+.signup-signup{
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-width: 1px;
+}
 
