@@ -3,18 +3,24 @@ body{
     font-family: Roboto;
 }
 
-.div{
-    border-style: solid;
-    border-color: black;
-}
-
 ul{
     list-style: none;
     display: flex;
     gap: 16px;
+    vertical-align: auto;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.left{
+    padding: 10px 0;
+    font-size: 24px;
+    color: #F9FAF8;
 }
